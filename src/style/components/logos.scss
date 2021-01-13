@@ -1,0 +1,26 @@
+.logo {
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+  padding: 2rem;
+  min-width: 10rem;
+  border-radius: 5px;
+  flex-grow: 1;;
+
+  img {
+    max-height: 3rem;
+    margin: auto;
+    display: block;
+  }
+
+  p {
+    padding-top: 1rem;
+    text-align: center;
+  }
+}
+
+.logo-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
