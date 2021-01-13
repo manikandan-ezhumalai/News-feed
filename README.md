@@ -9,5 +9,9 @@ Application get collect news from other sites and update current live news.
 
 ### How Run Application
 
-Download or git clone project after that run npm install and then run npm start for production build run npm run build
+* Download or clone project from git
+* run npm install 
+* run npm start
+* application will open on your browser
+* for production build do npm run build
 
