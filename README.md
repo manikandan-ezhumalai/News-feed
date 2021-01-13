@@ -1,5 +1,5 @@
 ## News Aggregator
-Application get collect news from other sites and update current live news.
+Application for collect news from different sites accorss the world it will give in one place as live news.
 
 #### Front-End
 * React
