@@ -15,3 +15,7 @@ Application for collect news from different sites accorss the world it will give
 * application will open on your browser
 * for production build do npm run build
 
+### Hosting
+
+Application Hosted on Aws s3 via cloudfront 
+
