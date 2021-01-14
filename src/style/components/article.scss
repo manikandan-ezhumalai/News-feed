@@ -34,3 +34,21 @@
     border-radius: 5px 5px 0 0;
   }
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  .article-container {
+    column-count: 1;
+    padding: unset;
+    padding-top: 6%;
+  }
+  .article {
+    margin-bottom: 0;
+  }
+  .emptydata {
+    margin-top: 60% !important;
+  }
+}
+
+

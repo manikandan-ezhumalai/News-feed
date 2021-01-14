@@ -11,8 +11,7 @@ import Home from './pages/Home';
 import Search from './pages/Search';
 import Sources from './pages/Sources';
 import About from './pages/About';
-
-
+import TweetFeed from './pages/Tweet';
 
 class App extends Component {
   
@@ -64,6 +63,7 @@ class App extends Component {
             <Route exact path = '/search/:id' component = {Search} />
             <Route exact path = '/sources' component = {Sources} />
             <Route exact path = '/about' component = {About} />
+            <Route exact path = '/tweet' component = {TweetFeed} />
             <Route component = {NotFound} />
           </Switch>
         </div>

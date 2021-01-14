@@ -32,7 +32,7 @@ class Search extends React.Component {
         unsortedArticles.sort(function(a,b){
             // Turn your strings into dates, and then subtract them
             // to get a value that is either negative, positive, or zero.
-            return new Date(b.date) - new Date(a.date);
+            return new Date(b.pubDate) - new Date(a.pubDate);
         });
         // call for data in state
         this.setState({loading : false, articles : unsortedArticles})

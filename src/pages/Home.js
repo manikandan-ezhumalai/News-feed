@@ -40,14 +40,14 @@ class Home extends React.Component {
             }
             // merging two array 
             Array.prototype.push.apply(unSortedArticles,tempArticles); 
-            unSortedArticles.sort(function(a,b){
+            let sortedArticles = unSortedArticles.sort(function(a,b){
                 // Turn your strings into dates, and then subtract them
                 // to get a value that is either negative, positive, or zero.
-                return new Date(b.date) - new Date(a.date);
+                return new Date(b.pubDate) - new Date(a.pubDate);
             });
             // setting value in state 
             this.setState({
-                articles :  unSortedArticles,
+                articles :  sortedArticles,
                 loading : false
             })
         }

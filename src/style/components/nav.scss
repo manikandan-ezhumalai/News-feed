@@ -106,7 +106,7 @@
   border-radius: 10px;
   position: fixed;
   right: 10px;
-  top: 12px;
+  top: 20px;
   cursor: pointer;
   outline: none;
 
@@ -236,5 +236,47 @@
 
   .nav-drawer {
     display: block;
+  }
+}
+
+.res__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding-right: 1rem;
+  margin-top: 23px;
+  input {
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: none;
+    transition: all 0.3s;
+    width: 64%;
+    height: 42px;
+    padding-left: 0.5rem;
+    margin-right: 0.3rem;
+    border: 1.5px solid $grey-2;
+
+    &:focus {
+      border-color: $primary;
+    }
+  }
+
+  button {
+    background: $primary;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.2s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+    color: white;
+
+    &:hover {
+      background: $primary-darker;
+    }
   }
 }
